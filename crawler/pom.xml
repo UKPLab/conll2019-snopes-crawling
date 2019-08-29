@@ -44,6 +44,11 @@
         </plugins>
     </build>
 
+         <properties>
+                  <maven.compiler.source>1.6</maven.compiler.source>
+                  <maven.compiler.target>1.6</maven.compiler.target>
+         </properties>
+         
     <dependencies>
 
         <dependency>
@@ -126,12 +131,6 @@
             <scope>system</scope>
             <systemPath>${pom.basedir}/lib/boilerpipe-common-2.0-SNAPSHOT.jar</systemPath>
         </dependency>
-
-        <properties>
-            <maven.compiler.source>1.6</maven.compiler.source>
-            <maven.compiler.target>1.6</maven.compiler.target>
-        </properties>
-             
              
         <dependency>
             <groupId>com.kohlschutter.boilerpipe</groupId>
@@ -147,10 +146,6 @@
             <artifactId>stanford-corenlp</artifactId>
             <version>3.7.0</version>
         </dependency>
-
-
-
-
 
     </dependencies>
 

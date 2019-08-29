@@ -54,6 +54,7 @@ which matches the ETS from Corpus 2 and original documents (Origin Doc) from Cor
 
 In order to generate the annotated Corpus 2, which can be used for stance detection, evidence extraction and claim validation, run the following command:
 	
+	sudo apt install maven
 	chmod +x script.sh
 	./script.sh mode2
 

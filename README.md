@@ -45,8 +45,9 @@ The first part is the crawler based on a Maven project, which is crawles the inf
 from the web archives Wayback Machine and Common Crawl to generate the Corpus 2 and Corpus 3.
 Moreover, the annotations from Amazon Mechanical Turk for the stance of the Evidence Text Snippets (ETS) and for retrieving the necessary Fince Grained Evidence (FGE) 
 are incorporated into the Corpus 2. 
-The second part is a python program, it is based on the thesis of Arphitha Nagaraja, and builuds upon a pre-trained random-forest classifier, 
-it matches the evidence from Corpus 2 and documents from Corpus 3 to generate a new corpus for document retrieval. 
+The second part is a python program, it is based on the thesis of Arphitha Nagaraja.
+It builuds upon a pre-trained random-forest classifier, 
+which matches the ETS from Corpus 2 and original documents (Origin Doc) from Corpus 3 to generate Corpus 4. 
 
 
 ## Generating the Annotated Corpus (Corpus 2 + annotations)
@@ -79,9 +80,9 @@ This command will generate Corpus2_annotated.csv in final_corpus directory. It c
 
 
 
-## Complete Corpora (Corpus 4 = Corpus 2 + Corpus 3)
+## Complete Corpora (Corpus 2, Corpus 3, Corpus 4 = Corpus 2 + Corpus 3)
 
-In order to generated the complete corpora, which includes the documen retrieval corpus (Corpus 4), run the following command:
+In order to generated the complete corpora run the following command:
 	
 	chmode +x script.sh
 	./script.sh mode1
@@ -108,7 +109,7 @@ This corpus can be used for document retrieval. Given a claim, extract the relat
 
 ### Credit: 
 
-This resository was build by Hao Zhang, Arphitha Nagaraja and Andreas Hanselowski 
+This resository was build by Hao Zhang, Arphitha Nagaraja, and Andreas Hanselowski 
 
 
 ### License:

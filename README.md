@@ -85,7 +85,7 @@ This command will generate Corpus2_annotated.csv in final_corpus directory. It c
 
 In order to generated the complete corpora run the following command:
 	
-	chmode +x script.sh
+	chmod +x script.sh
 	./script.sh mode1
 
 This command will generate the Corpus2_annotated.csv and Corpus4.csv. The Corpus4.csv contains the following information:

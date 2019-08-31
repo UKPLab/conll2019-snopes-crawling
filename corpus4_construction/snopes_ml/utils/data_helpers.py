@@ -1,6 +1,6 @@
 import re, string
 import nltk
-nltk.download()
+nltk.download('punkt')
 from nltk.tokenize import word_tokenize
 from nltk.tokenize import sent_tokenize
 from nltk.corpus import stopwords

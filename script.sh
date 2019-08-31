@@ -23,8 +23,8 @@ then
 	mkdir corpus4_construction/newdata/
 	
 	#matching between evidence and documents
-	cp crawler/Results/Corpus2 corpus4_construction/newdata/
-	cp crawler/Results/Corpus3 corpus4_construction/newdata/
+	cp crawler/Results/Corpus2.csv corpus4_construction/newdata/
+	cp crawler/Results/Corpus3.csv corpus4_construction/newdata/
 	cd corpus4_construction
 	pip install -r requirements.txt
 	python predict.py --path newdata/

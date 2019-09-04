@@ -26,7 +26,7 @@ Disclaimer:
 
 
 
-# This is a program to generate the Snopes Corpus
+# This is a crawler to generate the Snopes Corpus
 
 ## The repository contains or constructs the following corpora:
 
@@ -100,6 +100,8 @@ This command will generate the Corpus2_annotated.csv and Corpus4.csv. The Corpus
 
 This corpus can be used for document retrieval. Given a claim, extract the related documents. 
 
+### Repository for experiments:
+  * You can run experiments using this cralwer on the basis of this [repository](https://github.com/UKPLab/conll2019-snopes-experiments)
 
 ### Contacts:
   * \<lastname\>@ukp.informatik.tu-darmstadt.de

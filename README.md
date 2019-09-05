@@ -100,8 +100,10 @@ This command will generate the Corpus2_annotated.csv and Corpus4.csv. The Corpus
 
 This corpus can be used for document retrieval. Given a claim, extract the related documents. 
 
+## Other:
+
 ### Repository for experiments:
-  * You can run experiments using this cralwer on the basis of this [repository](https://github.com/UKPLab/conll2019-snopes-experiments)
+  * You can run experiments using this cralwed corpus on the basis of this [repository](https://github.com/UKPLab/conll2019-snopes-experiments)
 
 ### Contacts:
   * \<lastname\>@ukp.informatik.tu-darmstadt.de

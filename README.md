@@ -114,7 +114,7 @@ This corpus can be used for document retrieval. Given a claim, extract the relat
 
 ### Credit: 
 
-This resository was build by Hao Zhang, Arphitha Nagaraja, and Andreas Hanselowski 
+This repository was build by Hao Zhang, Arphitha Nagaraja, and Andreas Hanselowski 
 
 
 ### License:

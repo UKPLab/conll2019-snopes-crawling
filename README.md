@@ -102,6 +102,11 @@ This corpus can be used for document retrieval. Given a claim, extract the relat
 
 ## Other:
 
+
+### Original corpus
+ * You can request the original corpus crawled by us: [data archive website](https://tudatalib.ulb.tu-darmstadt.de/handle/tudatalib/..) (However, please take note of the licence agreement as the corpus is not publicly available)
+ 
+ 
 ### Repository for experiments:
   * You can run experiments using this cralwed corpus on the basis of this [repository](https://github.com/UKPLab/conll2019-snopes-experiments)
 

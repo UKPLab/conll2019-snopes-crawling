@@ -104,7 +104,7 @@ This corpus can be used for document retrieval. Given a claim, extract the relat
 
 
 ### Original corpus
- * You can request the original corpus crawled by us: [data archive website](https://tudatalib.ulb.tu-darmstadt.de/handle/tudatalib/..) (However, please take note of the licence agreement as the corpus is not publicly available)
+ * You can request the original corpus crawled by us: [data archive website](https://tudatalib.ulb.tu-darmstadt.de/handle/tudatalib/2081) (However, please take note of the licence agreement as the corpus is not publicly available)
  
  
 ### Repository for experiments:
